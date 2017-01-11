@@ -1,0 +1,43 @@
+[19:57:38] [main/INFO]: Setting user: Player68
+[19:57:39] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:57:46] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Rebel's Turd Mod
+[19:57:47] [Sound Library Loader/INFO]: Sound engine started
+[19:57:57] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[19:57:57] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[19:57:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Rebel's Turd Mod
+[19:57:57] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:57:57] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:57:58] [Sound Library Loader/INFO]: Sound engine started
+[19:58:13] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[19:58:13] [Server thread/INFO]: Generating keypair
+[19:58:14] [Server thread/INFO]: Converting map!
+[19:58:14] [Server thread/INFO]: Scanning folders...
+[19:58:14] [Server thread/INFO]: Total conversion count is 0
+[19:58:14] [Server thread/INFO]: Preparing start region for level 0
+[19:58:15] [Server thread/INFO]: Preparing spawn area: 13%
+[19:58:16] [Server thread/INFO]: Preparing spawn area: 28%
+[19:58:17] [Server thread/INFO]: Preparing spawn area: 41%
+[19:58:18] [Server thread/INFO]: Preparing spawn area: 54%
+[19:58:19] [Server thread/INFO]: Preparing spawn area: 68%
+[19:58:20] [Server thread/INFO]: Preparing spawn area: 85%
+[19:58:21] [Server thread/INFO]: Changing view distance to 8, from 10
+[19:58:22] [Server thread/INFO]: Player68[local:E:72268fe3] logged in with entity id 225 at (240.5, 84.0, 258.5)
+[19:58:22] [Server thread/INFO]: Player68 joined the game
+[19:58:23] [Server thread/INFO]: Saving and pausing game...
+[19:58:23] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[19:58:26] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[19:58:26] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[19:58:28] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5206ms behind, skipping 104 tick(s)
+[19:58:31] [Server thread/INFO]: Player68 has just earned the achievement [Taking Inventory]
+[19:58:31] [Client thread/INFO]: [CHAT] Player68 has just earned the achievement [Taking Inventory]
+[19:59:08] [Server thread/INFO]: Saving and pausing game...
+[19:59:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[19:59:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[19:59:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[19:59:09] [Server thread/INFO]: Stopping server
+[19:59:09] [Server thread/INFO]: Saving players
+[19:59:09] [Server thread/INFO]: Saving worlds
+[19:59:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[19:59:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[19:59:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[19:59:11] [Client thread/INFO]: Stopping!
