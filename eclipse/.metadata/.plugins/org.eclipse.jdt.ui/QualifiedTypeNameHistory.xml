@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemSword"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemSpade"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemHoe"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemSnowball"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.projectile.EntitySnowball"/>
+<fullyQualifiedTypeName name="net.minecraft.client.renderer.entity.RenderArrow"/>
+<fullyQualifiedTypeName name="com.turd.render.BulletRender"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.projectile.EntityThrowable"/>
+<fullyQualifiedTypeName name="com.turd.entity.EntityBullet"/>
+<fullyQualifiedTypeName name="net.minecraft.entity.projectile.EntityArrow"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="com.turd.lib.StringLibrary"/>
+<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+<fullyQualifiedTypeName name="net.minecraft.util.IChatComponent"/>
+<fullyQualifiedTypeName name="net.minecraft.util.ChatComponentText"/>
+<fullyQualifiedTypeName name="net.minecraft.world.gen.feature.WorldGenerator"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.IWorldGenerator"/>
+</qualifiedTypeNameHistroy>
