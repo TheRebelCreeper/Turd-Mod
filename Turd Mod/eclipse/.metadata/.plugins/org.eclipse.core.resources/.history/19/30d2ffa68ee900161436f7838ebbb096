@@ -1,0 +1,8 @@
+package com.turd.worldgen;
+
+import net.minecraft.world.gen.feature.WorldGenerator;
+
+public class WallGen extends WorldGenerator
+{
+
+}

@@ -1,0 +1,39 @@
+package com.turd.block;
+
+import java.util.Random;
+
+import com.turd.lib.StringLibrary;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.client.Minecraft;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
+import net.minecraft.util.ChatComponentText;
+import net.minecraft.util.IChatComponent;
+import net.minecraft.world.World;
+
+public class BlockTrump extends Block{
+
+	protected BlockTrump(Material mat) {
+		super(mat);
+		this.setBlockName("BlockTrump");
+		this.setCreativeTab(CreativeTabs.tabBlock);
+		this.setBlockTextureName(StringLibrary.MODID + ":trumpBlockHD");
+		this.setHardness(-1.0F);
+	}
+	
+	public boolean onBlockActivated(World world, int p_149727_2_, int p_149727_3_, int p_149727_4_, EntityPlayer p_149727_5_, int p_149727_6_, float p_149727_7_, float p_149727_8_, float p_149727_9_)
+    {
+		if (world.isRemote)
+			p_149727_5_.addChatMessage(new ChatComponentText("You have reached the United States of America. You are not welcome here."));
+        return false;
+    }
+	
+	public Item getItemDropped(int p_149650_1_, Random p_149650_2_, int p_149650_3_)
+	{
+		return Item.getItemFromBlock(this);
+	}
+
+}

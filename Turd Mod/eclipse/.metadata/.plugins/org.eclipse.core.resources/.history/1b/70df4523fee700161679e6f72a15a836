@@ -1,0 +1,5 @@
+package com.turd.block;
+
+public class BlockTrump extends Block{
+
+}

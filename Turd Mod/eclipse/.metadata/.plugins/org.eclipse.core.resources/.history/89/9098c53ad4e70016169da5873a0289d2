@@ -1,0 +1,13 @@
+package com.turd.entity;
+
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.projectile.EntityArrow;
+import net.minecraft.entity.projectile.EntityThrowable;
+import net.minecraft.util.MovingObjectPosition;
+import net.minecraft.world.World;
+
+public class EntityBullet extends EntityArrow{
+
+	public float arrowShake;
+
+}

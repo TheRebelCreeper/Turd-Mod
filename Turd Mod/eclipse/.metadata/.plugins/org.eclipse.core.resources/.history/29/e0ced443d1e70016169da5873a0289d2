@@ -1,0 +1,15 @@
+package com.turd.item;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.ItemSnowball;
+
+public class ItemBullet extends ItemSnowball
+{
+	protected ItemBullet()
+	{
+		super();
+		this.setMaxStackSize(64);
+		this.setUnlocalizedName("itemBullet");
+		this.setCreativeTab(CreativeTabs.tabCombat);
+	}
+}

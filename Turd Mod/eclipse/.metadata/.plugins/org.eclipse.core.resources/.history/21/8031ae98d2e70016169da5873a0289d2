@@ -1,0 +1,24 @@
+package com.turd.main;
+
+import com.turd.entity.CockroachEntity;
+import com.turd.entity.EntityBullet;
+import com.turd.render.BulletRender;
+import com.turd.render.CockroachModel;
+import com.turd.render.CockroachRender;
+
+import cpw.mods.fml.client.registry.RenderingRegistry;
+
+public class ClientProxy extends ServerProxy
+{
+	public void registerRenderThings()
+	{
+		RenderingRegistry.registerEntityRenderingHandler(CockroachEntity.class, new CockroachRender(new CockroachModel(), 0));
+		RenderingRegistry.registerEntityRenderingHandler(EntityBullet.class, new BulletRender(new CockroachModel(), 0));
+	    
+    }
+	
+	public int addArmor(String armor) 
+	{
+        return RenderingRegistry.addNewArmourRendererPrefix(armor);
+    }
+}

@@ -1,0 +1,7 @@
+package com.turd.render;
+
+import net.minecraft.client.renderer.entity.RenderArrow;
+
+public class BulletRender extends RenderArrow{
+
+}

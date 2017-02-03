@@ -1,0 +1,5 @@
+package com.turd.item;
+
+public class ItemBullet {
+
+}

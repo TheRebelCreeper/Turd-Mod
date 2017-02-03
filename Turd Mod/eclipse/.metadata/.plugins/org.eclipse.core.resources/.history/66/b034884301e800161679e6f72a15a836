@@ -1,0 +1,23 @@
+package com.turd.entity;
+
+import net.minecraft.entity.EntityList;
+import cpw.mods.fml.common.registry.EntityRegistry;
+
+public class EntityManager
+{
+
+	public static void mainRegistry()
+	{
+		createEntity(CockroachEntity.class, "CockroachEntityMob", 0x00FF00, 0xFF0000);
+		EntityRegistry.registerGlobalEntityID(EntityBullet.class, "BulletEntity", EntityRegistry.findGlobalUniqueEntityId());
+	}
+	
+	public static void createEntity(Class entityClass, String entityName, int solidColor, int spotColor) 
+	{
+	    int entityId = EntityRegistry.findGlobalUniqueEntityId();
+	    
+	    EntityRegistry.registerGlobalEntityID(entityClass, entityName, entityId);
+	    
+	    EntityList.entityEggs.put(Integer.valueOf(entityId), new EntityList.EntityEggInfo(entityId, solidColor, spotColor));
+	}
+}

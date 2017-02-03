@@ -1,0 +1,7 @@
+package com.turd.item;
+
+import net.minecraft.item.ItemSnowball;
+
+public class ItemBullet extends ItemSnowball{
+
+}

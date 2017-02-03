@@ -1,0 +1,5 @@
+package com.turd.entity;
+
+public class EntityBullet {
+
+}

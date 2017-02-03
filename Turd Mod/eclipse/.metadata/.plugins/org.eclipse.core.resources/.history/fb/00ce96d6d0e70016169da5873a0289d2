@@ -1,0 +1,14 @@
+package com.turd.entity;
+
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.projectile.EntitySnowball;
+import net.minecraft.world.World;
+
+public class EntityBullet extends EntitySnowball{
+
+	public EntityBullet(World p_i1774_1_, EntityLivingBase p_i1774_2_) {
+		super(p_i1774_1_, p_i1774_2_);
+		// TODO Auto-generated constructor stub
+	}
+
+}

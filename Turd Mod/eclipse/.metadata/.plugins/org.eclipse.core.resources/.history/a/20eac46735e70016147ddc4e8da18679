@@ -1,0 +1,30 @@
+package com.turd.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class BlockManager
+{
+	 public static void mainRegistry()
+	 {
+	        initializeBlock();
+	        registerBlock();
+	 }
+
+	 //public static Block blockGreen;
+	 //public static Block blockTurd;
+	 public static Block blocc;
+	 
+	public static void initializeBlock() 
+	{
+		//blockGreen = new GreenOre(Material.rock);
+		//blockTurd = new BlockTurd();
+		blocc = new SpecialBlock(Material.rock);
+	}
+
+	public static void registerBlock()
+	{
+			//GameRegistry.registerBlock(blockGreen, blockGreen.getLocalizedName());
+			//GameRegistry.registerBlock(blockTurd, blockTurd.getLocalizedName());
+	}
+}

@@ -1,0 +1,18 @@
+package com.turd.worldgen;
+
+import java.util.Random;
+
+import net.minecraft.world.World;
+import net.minecraft.world.gen.feature.WorldGenerator;
+
+public class WallGen extends WorldGenerator
+{
+
+	@Override
+	public boolean generate(public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider)) 
+	{
+		while()
+		return false;
+	}
+
+}
