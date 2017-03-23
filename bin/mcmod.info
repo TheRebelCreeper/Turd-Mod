@@ -1,0 +1,16 @@
+[
+{
+  "modid": "turd",
+  "name": "Rebel's Turd/Trump Mod",
+  "description": "This is a mod I made.",
+  "version": "1.2 Beta",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Rebel"],
+  "credits": "Me, myself, and I",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
