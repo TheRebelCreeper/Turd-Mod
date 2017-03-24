@@ -1,11 +1,42 @@
-[17:41:52] [main/INFO]: Setting user: Player631
-[17:41:52] [Client thread/INFO]: LWJGL Version: 2.9.1
-[17:41:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Rebel's Turd/Trump Mod
-[17:41:59] [Sound Library Loader/INFO]: Sound engine started
-[17:41:59] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[17:41:59] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[17:41:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Rebel's Turd/Trump Mod
-[17:42:00] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[17:42:00] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[17:42:01] [Sound Library Loader/INFO]: Sound engine started
-[17:42:12] [Client thread/INFO]: Stopping!
+[14:04:36] [main/INFO]: Setting user: Player464
+[14:04:38] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:04:38] [Client thread/ERROR]: Couldn't initialize twitch stream
+[14:04:46] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Rebel's Turd/Trump Mod
+[14:04:47] [Sound Library Loader/INFO]: Sound engine started
+[14:04:53] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[14:04:53] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[14:04:53] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Rebel's Turd/Trump Mod
+[14:04:54] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:04:54] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:04:55] [Sound Library Loader/INFO]: Sound engine started
+[14:05:23] [Client thread/INFO]: Deleting level Copy of Test
+[14:05:23] [Client thread/INFO]: Attempt 1...
+[14:05:28] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[14:05:28] [Server thread/INFO]: Generating keypair
+[14:05:28] [Server thread/INFO]: Converting map!
+[14:05:28] [Server thread/INFO]: Scanning folders...
+[14:05:28] [Server thread/INFO]: Total conversion count is 0
+[14:05:29] [Server thread/INFO]: Preparing start region for level 0
+[14:05:30] [Server thread/INFO]: Preparing spawn area: 9%
+[14:05:32] [Server thread/INFO]: Preparing spawn area: 29%
+[14:05:33] [Server thread/INFO]: Preparing spawn area: 51%
+[14:05:34] [Server thread/INFO]: Preparing spawn area: 69%
+[14:05:35] [Server thread/INFO]: Preparing spawn area: 87%
+[14:05:35] [Server thread/INFO]: Changing view distance to 16, from 10
+[14:05:36] [Server thread/INFO]: Player464[local:E:d9c5c1c7] logged in with entity id 324 at (187.5, 64.0, 292.5)
+[14:05:36] [Server thread/INFO]: Player464 joined the game
+[14:05:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4537ms behind, skipping 90 tick(s)
+[14:05:46] [Client thread/INFO]: Warning: Clientside chunk ticking took 117 ms
+[14:06:01] [Client thread/INFO]: Warning: Clientside chunk ticking took 187 ms
+[14:06:02] [Client thread/INFO]: Warning: Clientside chunk ticking took 149 ms
+[14:06:02] [Server thread/INFO]: Saving and pausing game...
+[14:06:02] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:06:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:06:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:06:08] [Server thread/INFO]: Stopping server
+[14:06:08] [Server thread/INFO]: Saving players
+[14:06:08] [Server thread/INFO]: Saving worlds
+[14:06:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:06:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:06:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:06:26] [Client thread/INFO]: Stopping!

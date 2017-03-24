@@ -2,6 +2,8 @@ package com.turd.worldgen;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 import com.turd.block.BlockManager;
 
 import cpw.mods.fml.common.IWorldGenerator;
@@ -21,19 +23,38 @@ public class WallGen implements IWorldGenerator
 			int y = 250;
 			int z = chunkZ*16+random.nextInt(16);
 			
-			for(int i = 0; i < 1600; i++)
+			int direction = random.nextInt(2);
+			
+			if (!wallNearby(world, x, 60, z))
 			{
-				y = 250;
-				while(blockIsValid(world, x + i, y - 1, z) && y > 63)
+				
+				for(int i = 0; i < 1600; i++)
 				{
-					y = y-1;
-				}
-				for (int j = 0; j < 20; j++)
-				{
-					world.setBlock(x + i, y + j - 10, z, BlockManager.blockTrump);
+					y = 250;
+					if (direction == 0)
+					{
+						while(blockIsValid(world, x + i, y - 1, z) && y > 63)
+						{
+							y = y-1;
+						}
+						for (int j = 0; j < 20; j++)
+						{
+							world.setBlock(x + i, y + j - 10, z, BlockManager.blockTrump);
+						}
+					}
+					else
+					{
+						while(blockIsValid(world, x, y - 1, z + i) && y > 63)
+						{
+							y = y-1;
+						}
+						for (int j = 0; j < 20; j++)
+						{
+							world.setBlock(x, y + j - 10, z + i, BlockManager.blockTrump);
+						}
+					}
 				}
 			}
-			//world.setBlock(chunkX*16+random.nextInt(16), 250, chunkZ*16+random.nextInt(16), BlockManager.blockTurd);
 		}	
 	}
 	
@@ -44,6 +65,29 @@ public class WallGen implements IWorldGenerator
 			return true;
 		}
 		else
+		{
 			return false;
+		}
+	}
+	
+	private boolean wallNearby(World world, int x, int y, int z)
+	{
+		for (int i = 0; i < 500; i++)
+		{
+			for (int j = 0; j < 100; j++)
+			{
+				for (int k = 0; k < 500; k++)
+				{
+					if (world.getBlock(x + i, y + j, z + k) == BlockManager.blockTrump || 
+						world.getBlock(x - i, y + j, z - k) == BlockManager.blockTrump || 
+						world.getBlock(x + i, y + j, z - k) == BlockManager.blockTrump || 
+						world.getBlock(x - i, y + j, z + k) == BlockManager.blockTrump)
+					{
+						return true;
+					}
+				}
+			}
+		}
+		return false;
 	}
 }

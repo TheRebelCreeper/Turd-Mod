@@ -19,4 +19,5 @@
 <fullyQualifiedTypeName name="net.minecraft.util.ChatComponentText"/>
 <fullyQualifiedTypeName name="net.minecraft.world.gen.feature.WorldGenerator"/>
 <fullyQualifiedTypeName name="cpw.mods.fml.common.IWorldGenerator"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>
