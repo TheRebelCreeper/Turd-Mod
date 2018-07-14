@@ -2,6 +2,7 @@ package com.rebel.turd;
 
 import org.apache.logging.log4j.Logger;
 
+import com.rebel.turd.init.TurdItems;
 import com.rebel.turd.proxy.IProxy;
 
 import net.minecraftforge.fml.common.Mod;

@@ -1,13 +1,17 @@
 package com.rebel.turd.item;
 
-import net.minecraft.creativetab.CreativeTabs;
+import com.rebel.turd.TurdMod;
 
-public class ItemGreenIngot extends ItemBasic
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+
+public class ItemGreenIngot extends Item
 {
 
 	public ItemGreenIngot(String unlocalizedName, String registryName) 
 	{
-		super(unlocalizedName, registryName);
+		setUnlocalizedName(TurdMod.MODID + "." + unlocalizedName);
+		setRegistryName(registryName);
 		setCreativeTab(CreativeTabs.MATERIALS);
 	}
 }

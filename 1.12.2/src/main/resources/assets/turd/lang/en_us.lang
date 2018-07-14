@@ -6,6 +6,8 @@ item.turd.greenShovel.name=Green Shovel
 item.turd.greenAxe.name=Green Axe
 item.turd.greenHoe.name=Green Hoe
 
+tile.turd.blockTrump.name=Block Trump!
+
 tile.GreenOre.name=Green Ore
 tile.BlockTurd.name=Turd
 item.TurdPickaxe.name=Turd Pickaxe
@@ -21,4 +23,3 @@ item.ItemDonut.name=Donut
 item.ItemDough.name=Dough
 item.ItemGlaze.name=Glaze
 entity.CockroachEntityMob.name=Cockroach Man
-tile.BlockTrump.name=Block Trump!

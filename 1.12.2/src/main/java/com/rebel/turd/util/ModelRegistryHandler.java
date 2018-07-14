@@ -1,7 +1,9 @@
 package com.rebel.turd.util;
 
+import com.rebel.turd.init.TurdBlocks;
 import com.rebel.turd.init.TurdItems;
 
+import net.minecraft.block.Block;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -16,17 +18,26 @@ public class ModelRegistryHandler
 	@SubscribeEvent
 	public static void registerModels(ModelRegistryEvent event)
 	{
-		registerModel(TurdItems.GREEN_INGOT);
-		registerModel(TurdItems.TURD_ITEM);
-		registerModel(TurdItems.GREEN_SWORD);
-		registerModel(TurdItems.GREEN_PICKAXE);
-		registerModel(TurdItems.GREEN_SHOVEL);
-		registerModel(TurdItems.GREEN_AXE);
-		registerModel(TurdItems.GREEN_HOE);
+		/*Register items*/
+		for (int i = 0; i < RegistryHandler.items.length; i++)
+		{
+			registerModel(RegistryHandler.items[i]);
+		}
+		
+		/*Register blocks*/
+		for (int i = 0; i < RegistryHandler.blocks.length; i++)
+		{
+			registerModel(RegistryHandler.blocks[i]);
+		}
 	}
 	
 	private static void registerModel(Item item)
 	{
 		ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+	}
+	
+	private static void registerModel(Block block)
+	{
+		registerModel(Item.getItemFromBlock(block));
 	}
 }

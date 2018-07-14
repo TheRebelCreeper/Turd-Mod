@@ -1,9 +1,11 @@
 package com.rebel.turd.util;
 
+import com.rebel.turd.init.TurdBlocks;
 import com.rebel.turd.init.TurdItems;
-import com.rebel.turd.item.ItemGreenIngot;
 
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
 import net.minecraftforge.event.RegistryEvent.Register;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -11,11 +13,7 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 @EventBusSubscriber
 public class RegistryHandler 
 {
-	@SubscribeEvent
-	public static void registerItems(Register<Item> event)
-	{
-		final Item[] items = 
-		{
+	public final static Item[] items = {
 			TurdItems.GREEN_INGOT,
 			TurdItems.TURD_ITEM,
 			TurdItems.GREEN_AXE,
@@ -24,6 +22,26 @@ public class RegistryHandler
 			TurdItems.GREEN_SHOVEL,
 			TurdItems.GREEN_SWORD
 		};
+	
+	public final static Block[] blocks = {
+			TurdBlocks.TRUMP_BLOCK
+		};
+	
+	@SubscribeEvent
+	public static void registerItems(Register<Item> event)
+	{	
+		final Item[] itemBlocks = 
+		{
+		    new ItemBlock(TurdBlocks.TRUMP_BLOCK).setRegistryName(TurdBlocks.TRUMP_BLOCK.getRegistryName())		
+		};
+		
 		event.getRegistry().registerAll(items);
+		event.getRegistry().registerAll(itemBlocks);
+	}
+	
+	@SubscribeEvent
+	public static void registerBlocks(Register<Block> event)
+	{
+		event.getRegistry().registerAll(blocks);
 	}
 }
