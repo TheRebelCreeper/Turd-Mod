@@ -4,6 +4,7 @@ import com.turd.lib.StringLibrary;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSpade;
+import com.turd.lib.StringLibrary;
 
 public class GreenShovel extends ItemSpade{
 
@@ -11,6 +12,6 @@ public class GreenShovel extends ItemSpade{
 		super(mat);
 		this.setCreativeTab(CreativeTabs.tabTools);
 		this.setUnlocalizedName("GreenShovel");
-		this.setTextureName("");
+		this.setTextureName(StringLibrary.MODID+":greenShovel");
 	}
 }

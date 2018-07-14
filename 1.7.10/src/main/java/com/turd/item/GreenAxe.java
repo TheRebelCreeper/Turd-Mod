@@ -4,6 +4,7 @@ import com.turd.lib.StringLibrary;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemAxe;
+import com.turd.lib.StringLibrary;
 
 public class GreenAxe extends ItemAxe{
 
@@ -12,7 +13,6 @@ public class GreenAxe extends ItemAxe{
 		// TODO Auto-generated constructor stub
 		this.setCreativeTab(CreativeTabs.tabTools);
 		this.setUnlocalizedName("GreenAxe");
-		this.setTextureName("");
+		this.setTextureName(StringLibrary.MODID+":greenAxe");
 	}
-
 }
