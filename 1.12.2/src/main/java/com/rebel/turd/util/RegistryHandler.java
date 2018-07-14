@@ -17,7 +17,12 @@ public class RegistryHandler
 		final Item[] items = 
 		{
 			TurdItems.GREEN_INGOT,
-			TurdItems.TURD_ITEM
+			TurdItems.TURD_ITEM,
+			TurdItems.GREEN_AXE,
+			TurdItems.GREEN_HOE,
+			TurdItems.GREEN_PICKAXE,
+			TurdItems.GREEN_SHOVEL,
+			TurdItems.GREEN_SWORD
 		};
 		event.getRegistry().registerAll(items);
 	}

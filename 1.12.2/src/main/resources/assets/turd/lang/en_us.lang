@@ -1,12 +1,13 @@
 item.turd.greenIngot.name=Green Ingot
 item.turd.itemTurd.name=Turd
+item.turd.greenPickaxe.name=Green Pickaxe
+item.turd.greenSword.name=Green Sword
+item.turd.greenShovel.name=Green Shovel
+item.turd.greenAxe.name=Green Axe
+item.turd.greenHoe.name=Green Hoe
+
 tile.GreenOre.name=Green Ore
 tile.BlockTurd.name=Turd
-item.GreenPickaxe.name=Green Pickaxe
-item.GreenSword.name=Green Sword
-item.GreenShovel.name=Green Shovel
-item.GreenAxe.name=Green Axe
-item.GreenHoe.name=Green Hoe
 item.TurdPickaxe.name=Turd Pickaxe
 item.TurdShovel.name=Turd Shovel
 item.TurdAxe.name=Turd Axe

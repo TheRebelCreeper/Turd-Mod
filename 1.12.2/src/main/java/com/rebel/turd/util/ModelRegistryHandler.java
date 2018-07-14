@@ -18,6 +18,11 @@ public class ModelRegistryHandler
 	{
 		registerModel(TurdItems.GREEN_INGOT);
 		registerModel(TurdItems.TURD_ITEM);
+		registerModel(TurdItems.GREEN_SWORD);
+		registerModel(TurdItems.GREEN_PICKAXE);
+		registerModel(TurdItems.GREEN_SHOVEL);
+		registerModel(TurdItems.GREEN_AXE);
+		registerModel(TurdItems.GREEN_HOE);
 	}
 	
 	private static void registerModel(Item item)
