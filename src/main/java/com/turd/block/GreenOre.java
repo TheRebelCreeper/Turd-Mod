@@ -23,7 +23,7 @@ public class GreenOre extends Block
 		this.setBlockName("GreenOre");
 		this.setHardness(4);
 		this.setCreativeTab(CreativeTabs.tabBlock);
-		this.setBlockTextureName(StringLibrary.MODID+":green_ore");
+		this.setBlockTextureName(StringLibrary.MODID+":greenOre");
 	}
 	
 	public int quantityDropped(Random p_149745_1_)

@@ -10,7 +10,7 @@ public class GreenSword extends ItemSword
 		super(mat);
 		this.setCreativeTab(CreativeTabs.tabCombat);
 		this.setUnlocalizedName("GreenSword");
-		this.setTextureName("");
+		this.setTextureName(StringLibrary.MODID+":greenSword");
 	}
 
 }

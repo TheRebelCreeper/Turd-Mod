@@ -11,6 +11,6 @@ public class TurdHoe extends ItemHoe
 		super(p_i45343_1_);
 		this.setCreativeTab(CreativeTabs.tabTools);
 		this.setUnlocalizedName("TurdHoe");
-		this.setTextureName(StringLibrary.MODID+":TurdHoe");
+		this.setTextureName(StringLibrary.MODID+":turdHoe");
 	}
 }

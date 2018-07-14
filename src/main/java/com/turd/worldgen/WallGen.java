@@ -14,10 +14,10 @@ import net.minecraft.world.chunk.IChunkProvider;
 
 public class WallGen implements IWorldGenerator
 {
-
+	private final int chance = 750; // Chance of spawning is 1/chance
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator, IChunkProvider chunkProvider)
 	{
-		if(random.nextInt(1000) == 1)
+		if(random.nextInt(chance) == 1)
 		{
 			int x = chunkX*16+random.nextInt(16);
 			int y = 250;
@@ -27,7 +27,6 @@ public class WallGen implements IWorldGenerator
 			
 			if (!wallNearby(world, x, 60, z))
 			{
-				
 				for(int i = 0; i < 1600; i++)
 				{
 					y = 250;
@@ -74,9 +73,9 @@ public class WallGen implements IWorldGenerator
 	{
 		for (int i = 0; i < 500; i++)
 		{
-			for (int j = 0; j < 100; j++)
+			for (int k = 0; j < 500; k++)
 			{
-				for (int k = 0; k < 500; k++)
+				for (int j = 0; k < 100; j++)
 				{
 					if (world.getBlock(x + i, y + j, z + k) == BlockManager.blockTrump || 
 						world.getBlock(x - i, y + j, z - k) == BlockManager.blockTrump || 

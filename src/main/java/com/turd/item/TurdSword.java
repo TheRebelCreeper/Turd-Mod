@@ -12,6 +12,6 @@ public class TurdSword extends ItemSword
 		super(mat);
 		this.setCreativeTab(CreativeTabs.tabCombat);
 		this.setUnlocalizedName("TurdSword");
-		this.setTextureName(StringLibrary.MODID+":TurdSword");
+		this.setTextureName(StringLibrary.MODID+":turdSword");
 	}
 }

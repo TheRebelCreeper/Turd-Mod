@@ -11,6 +11,6 @@ public class TurdShovel extends ItemSpade
 		super(p_i45353_1_);
 		this.setCreativeTab(CreativeTabs.tabTools);
 		this.setUnlocalizedName("TurdShovel");
-		this.setTextureName(StringLibrary.MODID+":TurdShovel");
+		this.setTextureName(StringLibrary.MODID+":turdShovel");
 	}
 }

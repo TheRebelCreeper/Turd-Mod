@@ -12,6 +12,6 @@ public class GreenPickaxe extends ItemPickaxe {
 		super(p_i45347_1_);
 		this.setCreativeTab(CreativeTabs.tabTools);
 		this.setUnlocalizedName("GreenPickaxe");
-		this.setTextureName(StringLibrary.MODID+":GreenPick");
+		this.setTextureName(StringLibrary.MODID+":greenPick");
 	}
 }

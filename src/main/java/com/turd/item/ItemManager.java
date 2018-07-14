@@ -53,7 +53,7 @@ public class ItemManager
     
     public static void initializeItem()
     {
-    	greenIngot = new GreenItem("ItemGreenIngot", StringLibrary.MODID+":StupidItem1");
+    	greenIngot = new GreenItem("ItemGreenIngot", StringLibrary.MODID+":stupidItem1");
     	turdItem = new ItemTurd(6, 0.1f, false);
     	itemDonut = new ItemDonut(10, 1, false);
     	itemDough = new ItemDough(0, 0, false);
@@ -74,10 +74,10 @@ public class ItemManager
     	turdSword = new TurdSword(turdToolMaterial);
     	turdHoe = new TurdHoe(turdToolMaterial);
     	
-    	greenHelmet = new GreenArmor(greenArmorMaterial, MainRegistry.proxy.addArmor("GreenHelmet"), 0, "GreenHelmet", ":green_helmet");
-    	greenChest = new GreenArmor(greenArmorMaterial, MainRegistry.proxy.addArmor("GreenChestplate"), 1, "GreenChest", ":green_chestplate");
-    	greenLegs = new GreenArmor(greenArmorMaterial, MainRegistry.proxy.addArmor("GreenLeggings"), 2, "GreenLegs", ":green_leggings");
-    	greenBoots = new GreenArmor(greenArmorMaterial, MainRegistry.proxy.addArmor("GreenBoots"), 3, "GreenBoots", ":green_boots");
+    	greenHelmet = new GreenArmor(greenArmorMaterial, MainRegistry.proxy.addArmor("GreenHelmet"), 0, "GreenHelmet", ":greenHelmet");
+    	greenChest = new GreenArmor(greenArmorMaterial, MainRegistry.proxy.addArmor("GreenChestplate"), 1, "GreenChest", ":greenChestplate");
+    	greenLegs = new GreenArmor(greenArmorMaterial, MainRegistry.proxy.addArmor("GreenLeggings"), 2, "GreenLegs", ":greenLeggings");
+    	greenBoots = new GreenArmor(greenArmorMaterial, MainRegistry.proxy.addArmor("GreenBoots"), 3, "GreenBoots", ":greenBoots");
     }
     
     public static void registerItem() 

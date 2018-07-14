@@ -12,6 +12,6 @@ public class TurdAxe extends ItemAxe
 		super(p_i45327_1_);
 		this.setCreativeTab(CreativeTabs.tabTools);
 		this.setUnlocalizedName("TurdAxe");
-		this.setTextureName(StringLibrary.MODID+":TurdAxe");
+		this.setTextureName(StringLibrary.MODID+":turdAxe");
 	}
 }

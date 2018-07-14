@@ -19,7 +19,7 @@ public class ItemTurd extends ItemFood
 		super(healAmout, saturation, wolfFood);
 		this.setUnlocalizedName("ItemTurd");
     	this.setCreativeTab(CreativeTabs.tabFood);
-    	this.setTextureName(StringLibrary.MODID+":ItemTurd");
+    	this.setTextureName(StringLibrary.MODID+":itemTurd");
     	this.setAlwaysEdible();
     	
 	}

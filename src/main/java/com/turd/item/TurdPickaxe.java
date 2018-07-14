@@ -13,7 +13,7 @@ public class TurdPickaxe extends ItemPickaxe
 		super(p_i45347_1_);
 		this.setCreativeTab(CreativeTabs.tabTools);
 		this.setUnlocalizedName("TurdPickaxe");
-		this.setTextureName(StringLibrary.MODID+":TurdPick");
+		this.setTextureName(StringLibrary.MODID+":turdPick");
 	}
 
 }

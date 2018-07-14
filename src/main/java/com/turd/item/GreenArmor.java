@@ -22,12 +22,12 @@ public class GreenArmor extends ItemArmor
 	 {
 	        if(slot == 0 || slot == 1 || slot == 3) 
 	        {
-	            return StringLibrary.MODID + ":textures/models/armor/green_layer_1.png";
+	            return StringLibrary.MODID + ":textures/models/armor/greenLayer1.png";
 	 
 	        }
 	        else if(slot == 2) 
 	        {
-	            return StringLibrary.MODID + ":textures/models/armor/green_layer_2.png";
+	            return StringLibrary.MODID + ":textures/models/armor/greenLayer2.png";
 	        }
 	        else 
 	        {
