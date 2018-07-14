@@ -73,9 +73,9 @@ public class WallGen implements IWorldGenerator
 	{
 		for (int i = 0; i < 500; i++)
 		{
-			for (int k = 0; j < 500; k++)
+			for (int k = 0; k < 500; k++)
 			{
-				for (int j = 0; k < 100; j++)
+				for (int j = 0; j < 100; j++)
 				{
 					if (world.getBlock(x + i, y + j, z + k) == BlockManager.blockTrump || 
 						world.getBlock(x - i, y + j, z - k) == BlockManager.blockTrump || 
