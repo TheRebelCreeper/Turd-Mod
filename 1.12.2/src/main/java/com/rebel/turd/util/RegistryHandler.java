@@ -15,7 +15,7 @@ public class RegistryHandler
 {
 	public final static Item[] items = {
 			TurdItems.GREEN_INGOT,
-			TurdItems.TURD_ITEM,
+			TurdItems.ITEM_TURD,
 			TurdItems.GREEN_AXE,
 			TurdItems.GREEN_HOE,
 			TurdItems.GREEN_PICKAXE,
@@ -32,19 +32,20 @@ public class RegistryHandler
 		};
 	
 	public final static Block[] blocks = {
-			TurdBlocks.TRUMP_BLOCK
+			TurdBlocks.BLOCK_TRUMP,
+			TurdBlocks.BLOCK_TURD,
+			TurdBlocks.GREEN_ORE
 		};
 	
 	@SubscribeEvent
 	public static void registerItems(Register<Item> event)
-	{	
-		final Item[] itemBlocks = 
-		{
-		    new ItemBlock(TurdBlocks.TRUMP_BLOCK).setRegistryName(TurdBlocks.TRUMP_BLOCK.getRegistryName())		
-		};
-		
+	{		
 		event.getRegistry().registerAll(items);
-		event.getRegistry().registerAll(itemBlocks);
+		for (int i = 0; i < blocks.length; i++)
+		{
+			Item item = new ItemBlock(blocks[i]).setRegistryName(blocks[i].getRegistryName());
+			event.getRegistry().register(item);
+		}
 	}
 	
 	@SubscribeEvent

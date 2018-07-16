@@ -1,7 +1,7 @@
 {
     "forge_marker": 1,
     "defaults": {
-        "model": "turd:trump_block"
+        "model": "turd:block_turd"
     },
     "variants": {
         "normal": [{}],

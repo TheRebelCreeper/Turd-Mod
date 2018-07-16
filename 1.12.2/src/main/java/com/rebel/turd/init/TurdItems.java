@@ -29,7 +29,7 @@ public class TurdItems
 	public static ToolMaterial greenToolMaterial = EnumHelper.addToolMaterial("Green Tool Material", 3, 500, 10.0F, 4.0F, 15);
 	
 	public static final Item GREEN_INGOT = new ItemGreenIngot("greenIngot", "green_ingot");
-	public static final Item TURD_ITEM = new ItemTurd("itemTurd", "item_turd", 6, 0.1f, false);
+	public static final Item ITEM_TURD = new ItemTurd("itemTurd", "item_turd", 6, 0.1f, false);
 	
 	public static final Item ITEM_DONUT = new ItemDonut("itemDonut", "item_donut", 10, 1, false);
 	public static final Item ITEM_DOUGH = new ItemDough("itemDough", "item_dough", 0, 0, false);

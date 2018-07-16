@@ -1,0 +1,10 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "turd:green_ore"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}

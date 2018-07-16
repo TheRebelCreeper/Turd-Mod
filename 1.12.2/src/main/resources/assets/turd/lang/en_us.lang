@@ -3,27 +3,24 @@ item.turd.itemTurd.name=Turd
 item.turd.itemDonut.name=Donut
 item.turd.itemDough.name=Dough
 item.turd.itemGlaze.name=Glaze
-
 item.turd.greenPickaxe.name=Green Pickaxe
 item.turd.greenSword.name=Green Sword
 item.turd.greenShovel.name=Green Shovel
 item.turd.greenAxe.name=Green Axe
 item.turd.greenHoe.name=Green Hoe
-
 item.turd.turdPickaxe.name=Turd Pickaxe
 item.turd.turdShovel.name=Turd Shovel
 item.turd.turdAxe.name=Turd Axe
 item.turd.turdSword.name=Turd Sword
 item.turd.turdHoe.name=Turd Hoe
 
-tile.turd.blockTrump.name=Block Trump!
+tile.turd.blockTrump.name=Trump Block
+tile.turd.blockTurd.name=Turd Block
+tile.turd.greenOre.name=Green Ore
 
-tile.GreenOre.name=Green Ore
-tile.BlockTurd.name=Turd
 
 item.GreenHelmet.name=Green Helmet
 item.GreenChest.name=Green Chestplate
 item.GreenLegs.name=Green Leggings
 item.GreenBoots.name=Green Boots
-
 entity.CockroachEntityMob.name=Cockroach Man

@@ -1,0 +1,10 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "turd:block_trump"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}
