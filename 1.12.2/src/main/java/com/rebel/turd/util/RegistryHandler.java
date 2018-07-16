@@ -20,7 +20,15 @@ public class RegistryHandler
 			TurdItems.GREEN_HOE,
 			TurdItems.GREEN_PICKAXE,
 			TurdItems.GREEN_SHOVEL,
-			TurdItems.GREEN_SWORD
+			TurdItems.GREEN_SWORD,
+			TurdItems.ITEM_DONUT,
+			TurdItems.ITEM_DOUGH,
+			TurdItems.ITEM_GLAZE,
+			TurdItems.TURD_AXE,
+			TurdItems.TURD_HOE,
+			TurdItems.TURD_PICKAXE,
+			TurdItems.TURD_SHOVEL,
+			TurdItems.TURD_SWORD
 		};
 	
 	public final static Block[] blocks = {

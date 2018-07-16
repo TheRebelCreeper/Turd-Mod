@@ -5,12 +5,11 @@ import com.rebel.turd.TurdMod;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemAxe;
 
-public class GreenAxe extends ItemAxe
+public class TurdAxe extends ItemAxe
 {
-
-	public GreenAxe(String unlocalizedName, String registryName, ToolMaterial material) 
+	public TurdAxe(String unlocalizedName, String registryName, ToolMaterial material) 
 	{
-		super(material, 9.0f, -3.0f);
+		super(material, 8.0f, -3.0f);
 		setUnlocalizedName(TurdMod.MODID + "." + unlocalizedName);
 		setRegistryName(registryName);
 		setCreativeTab(CreativeTabs.TOOLS);

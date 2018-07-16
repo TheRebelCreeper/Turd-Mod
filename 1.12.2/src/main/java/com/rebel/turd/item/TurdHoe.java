@@ -3,16 +3,15 @@ package com.rebel.turd.item;
 import com.rebel.turd.TurdMod;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemSword;
+import net.minecraft.item.ItemHoe;
 
-public class GreenSword extends ItemSword
+public class TurdHoe extends ItemHoe
 {
-
-	public GreenSword(String unlocalizedName, String registryName, ToolMaterial material) 
+	public TurdHoe(String unlocalizedName, String registryName, ToolMaterial material) 
 	{
 		super(material);
 		setUnlocalizedName(TurdMod.MODID + "." + unlocalizedName);
 		setRegistryName(registryName);
-		setCreativeTab(CreativeTabs.COMBAT);
+		setCreativeTab(CreativeTabs.TOOLS);
 	}
 }

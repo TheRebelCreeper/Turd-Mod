@@ -6,8 +6,16 @@ import com.rebel.turd.item.GreenHoe;
 import com.rebel.turd.item.GreenPickaxe;
 import com.rebel.turd.item.GreenShovel;
 import com.rebel.turd.item.GreenSword;
+import com.rebel.turd.item.ItemDonut;
+import com.rebel.turd.item.ItemDough;
+import com.rebel.turd.item.ItemGlaze;
 import com.rebel.turd.item.ItemGreenIngot;
 import com.rebel.turd.item.ItemTurd;
+import com.rebel.turd.item.TurdAxe;
+import com.rebel.turd.item.TurdHoe;
+import com.rebel.turd.item.TurdPickaxe;
+import com.rebel.turd.item.TurdShovel;
+import com.rebel.turd.item.TurdSword;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
@@ -23,10 +31,9 @@ public class TurdItems
 	public static final Item GREEN_INGOT = new ItemGreenIngot("greenIngot", "green_ingot");
 	public static final Item TURD_ITEM = new ItemTurd("itemTurd", "item_turd", 6, 0.1f, false);
 	
-	//itemDonut = new ItemDonut(10, 1, false);
-	//itemDough = new ItemDough(0, 0, false);
-	//itemGlaze = new ItemGlaze();
-	//itemBullet = new ItemBullet();
+	public static final Item ITEM_DONUT = new ItemDonut("itemDonut", "item_donut", 10, 1, false);
+	public static final Item ITEM_DOUGH = new ItemDough("itemDough", "item_dough", 0, 0, false);
+	public static final Item ITEM_GLAZE = new ItemGlaze("itemGlaze", "item_glaze");
 	
 	//Green Toolset
 	public static final Item GREEN_PICKAXE = new GreenPickaxe("greenPickaxe", "green_pickaxe", greenToolMaterial);
@@ -36,11 +43,11 @@ public class TurdItems
 	public static final Item GREEN_HOE = new GreenHoe("greenHoe", "green_hoe", greenToolMaterial);
 	
 	//Turd Toolset
-	//turdPickaxe = new TurdPickaxe(turdToolMaterial);
-	//turdShovel = new TurdShovel(turdToolMaterial);
-	//turdAxe = new TurdAxe(turdToolMaterial);
-	//turdSword = new TurdSword(turdToolMaterial);
-	//turdHoe = new TurdHoe(turdToolMaterial);
+	public static final Item TURD_PICKAXE = new TurdPickaxe("turdPickaxe", "turd_pickaxe", turdToolMaterial);
+	public static final Item TURD_SHOVEL = new TurdShovel("turdShovel", "turd_shovel", turdToolMaterial);
+	public static final Item TURD_AXE = new TurdAxe("turdAxe", "turd_axe", turdToolMaterial);
+	public static final Item TURD_SWORD = new TurdSword("turdSword", "turd_sword", turdToolMaterial);
+	public static final Item TURD_HOE = new TurdHoe("turdHoe", "turd_hoe", turdToolMaterial);
 	
 	//greenHelmet = new GreenArmor(greenArmorMaterial, MainRegistry.proxy.addArmor("GreenHelmet"), 0, "GreenHelmet", ":greenHelmet");
 	//greenChest = new GreenArmor(greenArmorMaterial, MainRegistry.proxy.addArmor("GreenChestplate"), 1, "GreenChest", ":greenChestplate");

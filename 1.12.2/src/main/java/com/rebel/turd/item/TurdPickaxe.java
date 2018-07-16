@@ -3,16 +3,17 @@ package com.rebel.turd.item;
 import com.rebel.turd.TurdMod;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.ItemSword;
+import net.minecraft.item.ItemPickaxe;
 
-public class GreenSword extends ItemSword
+public class TurdPickaxe extends ItemPickaxe
 {
 
-	public GreenSword(String unlocalizedName, String registryName, ToolMaterial material) 
+	public TurdPickaxe(String unlocalizedName, String registryName, ToolMaterial material) 
 	{
 		super(material);
 		setUnlocalizedName(TurdMod.MODID + "." + unlocalizedName);
 		setRegistryName(registryName);
-		setCreativeTab(CreativeTabs.COMBAT);
+		setCreativeTab(CreativeTabs.TOOLS);
 	}
+
 }
