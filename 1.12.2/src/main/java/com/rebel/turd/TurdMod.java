@@ -4,6 +4,7 @@ import org.apache.logging.log4j.Logger;
 
 import com.rebel.turd.init.TurdItems;
 import com.rebel.turd.proxy.IProxy;
+import com.rebel.turd.recipes.TurdRecipes;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -40,6 +41,7 @@ public class TurdMod
     public void init(FMLInitializationEvent event) 
     {
         proxy.init(event);
+        TurdRecipes.initSmelting();
     }
  
     @EventHandler

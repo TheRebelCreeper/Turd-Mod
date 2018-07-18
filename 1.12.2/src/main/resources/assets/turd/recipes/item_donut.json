@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+    {
+        "item": "turd:item_glaze"
+    },
+    {
+        "item": "turd:item_dough"
+    }
+    ],
+    "result": {
+        "item": "turd:item_donut"
+    }
+}
