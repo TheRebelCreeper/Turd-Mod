@@ -2,9 +2,11 @@ package com.rebel.turd;
 
 import org.apache.logging.log4j.Logger;
 
-import com.rebel.turd.init.TurdItems;
 import com.rebel.turd.proxy.IProxy;
 import com.rebel.turd.recipes.TurdRecipes;
+import com.rebel.turd.world.gen.GreenOreGen;
+import com.rebel.turd.world.gen.TurdGen;
+import com.rebel.turd.world.gen.WallGen;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -12,6 +14,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = TurdMod.MODID, name = TurdMod.NAME, version = TurdMod.VERSION, 
 	acceptedMinecraftVersions = TurdMod.MC_VERSION)
@@ -42,6 +45,9 @@ public class TurdMod
     {
         proxy.init(event);
         TurdRecipes.initSmelting();
+        GameRegistry.registerWorldGenerator(new GreenOreGen(), 0);
+        GameRegistry.registerWorldGenerator(new TurdGen(), 0);
+        GameRegistry.registerWorldGenerator(new WallGen(), 0);
     }
  
     @EventHandler
