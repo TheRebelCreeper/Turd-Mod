@@ -11,7 +11,7 @@ normal code.
 
 Source pack installation information:
 
-Standalone source installation
+Standalone source installation 
 ==============================
 
 See the Forge Documentation online for more detailed instructions:
